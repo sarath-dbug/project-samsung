@@ -1,0 +1,171 @@
+
+*{  padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+.first-box{
+    max-width: 100%;
+    max-height: 840px;
+}
+.banner{
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 28%;
+    left: 12%;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 65px;
+  }
+
+.second-box{
+     display: flex;
+} 
+
+.rightside-box{
+    height: 349px;
+    width: 621.21px;
+}
+.leftside-box{
+    height: 349px;
+    width: 621.21px;
+}
+.navigation{
+    background-image: url(source/kv-galaxy-s23-ultra.jpg);
+    max-width: 100%;
+    
+}
+
+@media (min-width: 280px) and (max-width: 359px) {
+    .centered {
+        top: 72%;
+        margin-left: 28%;
+      
+      }
+      h4{
+        font-family: 'Poppins', sans-serif;
+     margin-left: 22%;
+    }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .centered {
+        top: 72%;
+        font-size: 20px;
+        
+      }
+      h4{
+        margin-left: 28% !important;
+    }
+   
+}
+@media (min-width: 768px) and (max-width: 860px) {
+    .centered {
+        top: 72%;
+        font-size: 30px;
+      }
+      h4{
+        font-family: 'Poppins', sans-serif;
+     margin-left: 28%;
+    }
+}
+
+@media (min-width: 861px) and (max-width: 990px) {
+    .centered {
+        top: 72%;
+        font-size: 40px;
+      }
+      h4{
+        font-family: 'Poppins', sans-serif;
+     margin-left: 28%;
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .centered {
+        top: 72%;
+        font-size: 60px;
+        left: 40px;
+      }
+      h4{
+        font-family: 'Poppins', sans-serif;
+     margin-left: 22%;
+    }
+}
+@media (min-width: 1201px) and (max-width:1400px){
+    .centered {
+        top: 72%;
+        font-size: 60px;
+        left: 60px;
+      }
+      h4{
+        font-family: 'Poppins', sans-serif;
+     margin-left: 22%;
+    }
+}
+.gapbar,h2{
+    padding-top: 30px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.footerdiv{
+    height: 201.8px;
+    display: flex;
+
+}
+.footerdiv,h3{
+margin-left: 5%;
+color: gray;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+     margin-left: 10%;
+     font-weight: 100 ;
+}
+h4:hover{
+    color:white;
+}
+
+.col:hover{
+    background-color:darkblue;
+    transition: 0.7s;
+  
+}
+.col{
+    cursor: pointer;
+}
+.footerdiv i{
+height: 80px;
+width: 80px;
+text-align: center;
+text-align: none;
+border-radius: 50%;
+cursor: pointer;
+
+   
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
+    display: inline-block;
+    font-weight: 100 ;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footerdiv i:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    color: blue;
+}
+.footerdiv img{
+  max-height: 9%;
+  max-width: 9%;
+
+}
+a:hover{
+
+  transform: scale(1.1);
+  transition: .5s;
+}
